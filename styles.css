@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(188, 133, 142);
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+#yesButton {
+    background-color: rgb(71, 128, 71);
+}
+
+#noButton {
+    background-color: rgb(177, 73, 73);
+}
+
+p {
+    color: rgb(64, 13, 64);
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#rata {
+    max-width: 50%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Hace que la imagen no esté en línea */
+    margin: 20px auto; /* Añade espacio alrededor de la imagen y la centra */
+}
