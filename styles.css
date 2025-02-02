@@ -21,11 +21,11 @@ button {
 }
 
 #yesButton {
-    background-color: rgb(71, 128, 71);
+    background-color: rgb(143, 255, 143);
 }
 
 #noButton {
-    background-color: rgb(177, 73, 73);
+    background-color: rgb(255, 109, 109);
 }
 
 p {
